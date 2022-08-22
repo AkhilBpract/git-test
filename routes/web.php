@@ -20,6 +20,4 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('welcome');
 });
-Route::get('/user', function () {
-    return view('welcome');
-});
+
