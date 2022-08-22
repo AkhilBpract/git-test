@@ -23,3 +23,6 @@ Route::get('/admin', function () {
 Route::get('/user', function () {
     return view('welcome');
 });
+Route::get('/new', function () {
+    return view('welcome');
+});
